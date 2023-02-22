@@ -1,0 +1,32 @@
+// ignore_for_file: unnecessary_string_escapes
+
+const String iconBackIcon = "assets/Icons/Back.svg";
+const String iconBookPageCancel  = "assets/Icons/Book-Page-Cancel.svg";
+const String iconCarPageBook  = "assets/Icons/Car-Page-Book.svg";
+const String iconCarPageCall  = "assets/Icons/Car-Page-Call.svg";
+const String iconCarPageChatByWHatsApp  = "assets/Icons/Car-Page-Chat-by-WHatsapp.svg";
+const String iconCarPageFav  = "assets/Icons/Car-Page-Fav.svg";
+const String iconCarPageLocation  = "assets/Icons/Car-Page-Location.svg";
+const String iconCarPageMakfula  = "assets/Icons/Car-Page-Makfula.svg";
+const String iconCarPageShare  = "assets/Icons/Car-Page-Share.svg";
+const String iconCarPageSlindr  = "assets/Icons/Car-Page-Slindr.svg";
+const String iconHomeAd1  = "assets/Icons/Home-Ad1.svg";
+const String iconHomeAd2  = "assets/Icons/Home-Ad2.svg";
+const String iconHomeAd3  = "assets/Icons/Home-Ad3.svg";
+const String iconHomeAd4  = "assets/Icons/Home-Ad4.svg";
+const String iconHomeMenu  = "assets/Icons/Home-menu.svg";
+const String iconHomeNotification  = "assets/Icons/Home-Notification.svg";
+const String iconHomeSearch  = "assets/Icons/Home-Search.svg";
+const String iconMenuAbout  = "assets/Icons/Menu-About.svg";
+const String iconMenuContact  = "assets/Icons/Menu-Contact.svg";
+const String iconMenuFav  = "assets/Icons/Menu-Fav.svg";
+const String iconMenuHome  = "assets/Icons/Menu-Home.svg";
+const String iconMenuPartner  = "assets/Icons/Menu-Partner.svg";
+const String iconMenuQ  = "assets/Icons/Menu-Q.svg";
+const String iconMenuSignOut  = "assets/Icons/Menu-signout.svg";
+const String iconMenuSitting  = "assets/Icons/Menu-Sitting.svg";
+const String iconMenuUser  = "assets/Icons/Menu-User.svg";
+const String iconPartnerAdd  = "assets/Icons/Partner-Add.svg";
+const String iconPartnerUpload  = "assets/Icons/Partner-Upload.svg";
+const String iconProfilePageEdit  = "assets/Icons/Profile-Page-Edit.svg";
+const String iconSingInPartner  = "assets/Icons/Sing-in-Partner.svg";

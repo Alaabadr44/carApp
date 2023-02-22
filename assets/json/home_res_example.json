@@ -1,0 +1,305 @@
+{
+    "status": 0,
+    "msg": "مشكلة",
+    "data": {
+        "notification_count": 3,
+        "stories": [
+            {
+                "id": 1,
+                "image_path": "https://img.freepik.com/free-photo/grey-metallic-jeep-with-blue-stripe-it_114579-4080.jpg?w=996&t=st=1676994860~exp=1676995460~hmac=79130cbb7bf868f5c41d7bfd8f0b32af55a446b725fe92177a19798f45afcb75",
+                "title": "جيلي",
+                "is_show": false
+            },
+            {
+                "id": 2,
+                "image_path": "https://img.freepik.com/free-photo/silver-metallic-color-sport-sedan-road_114579-5035.jpg?w=1060&t=st=1676994874~exp=1676995474~hmac=5c747660956fc4e6629d1fd0a4d9854abd4a77b943f263da3b286b339cb39b99",
+                "title": "بي ام دبيليو",
+                "is_show": false
+            },
+            {
+                "id": 3,
+                "image_path": "https://img.freepik.com/free-photo/white-modern-sport-car-parking-road_114579-4025.jpg?w=1060&t=st=1676994894~exp=1676995494~hmac=13375ff184826dc954555ac7c2405913310aab6f4f9aeadc07ea9be14d42694a",
+                "title": "تويتا",
+                "is_show": false
+            },
+            {
+                "id": 4,
+                "image_path": "https://img.freepik.com/free-photo/yellow-sport-car-with-black-autotuning-road_114579-5051.jpg?w=996&t=st=1676995033~exp=1676995633~hmac=72163c48786bd03af1528cc8497177d7e6fed5d924d88429287088ed58c635b1",
+                "title": "جيلي",
+                "is_show": false
+            },
+            {
+                "id": 5,
+                "image_path": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?w=1060&t=st=1676995042~exp=1676995642~hmac=1a4b94f1abd7d75d38bed78664c87aba861d7f1e3828ecd9150864846333d5e2",
+                "title": "جيلي",
+                "is_show": false
+            }
+        ],
+        "banar": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?w=1060&t=st=1676994789~exp=1676995389~hmac=1845f1ccace840d2eb3bd85b4f034927133e06af2afbc1df010743891aa63007",
+        "cars": [
+            {
+                "id": 1,
+                "image_path": "https://img.freepik.com/free-photo/red-mini-coupe-parked-port_114579-5194.jpg?w=1060&t=st=1676995050~exp=1676995650~hmac=31ea949f4f536fb8af7a76f722ae4e2caad92c0ab413ae6ce84e67190d27b0e5",
+                "topHeadLine": "جي أم سي | يوكن | الفئة الرابعة ",
+                "salary": "12700",
+                "yearOfManufacture": "2019",
+                "kilometer": "200000",
+                "guaranteedTo": "2021",
+                "type": "asin",
+                "is_favorites": false,
+                "status": "يوكن بحاله جيده",
+                "even_guaranteed": "70000",
+                "agent_name": "يوكن للسيارات المعتمدة",
+                "agent_img_url": "https://img.freepik.com/free-photo/red-mini-coupe-parked-port_114579-5194.jpg?w=1060&t=st=1676995050~exp=1676995650~hmac=31ea949f4f536fb8af7a76f722ae4e2caad92c0ab413ae6ce84e67190d27b0e5",
+                "cylinder": 6,
+                "features": [
+                    {
+                        "key": "اللون الخارجي",
+                        "value": "أبيض"
+                    },
+                    {
+                        "key": "اللون الداخلي",
+                        "value": "بيج"
+                    },
+                    {
+                        "key": "نوع المقعد",
+                        "value": "محمل"
+                    },
+                    {
+                        "key": "فتحة السقف",
+                        "value": "1"
+                    },
+                    {
+                        "key": "كاميرا خلفية",
+                        "value": "1"
+                    },
+                    {
+                        "key": "سينسر",
+                        "value": "أمامى وخلفي"
+                    },
+                    {
+                        "key": "سيلندر",
+                        "value": "6"
+                    },
+                    {
+                        "key": "ناقل الحركة",
+                        "value": "أوتوماتيك"
+                    }
+                ],
+                "description": "تنقسم السيارات إلى عدة أنواع منها السيارات الصغيرة الخاصة، وأكثرها يمتلكها الأشخاص العاديون ويستعملونها للذهاب إلى العمل أو تنقل العائلة من مكان إلى آخر وللقيام بالرحلات. ومنها الحافلات الكبيرة التي تستخدم لنقل الركاب وهي من وسائل النقل العام المنتشرة في جميع البلاد. ومنها الكبيرة، الشاحنات، التي تستعمل لنقل البضائع، وهي بذلك تعتبر العنصر الأساسي في الدول الصناعية في دفع عجلة الاقتصاد إلى الأمام جنباً إلى جنب مع سكة الحديد. ",
+                "more_cars":[
+          {
+            "id": 2,
+            "image_path": "https://img.freepik.com/free-photo/sport-car-racing-on-asphalt-road-motion-blur_181624-1683.jpg?size=626&ext=jpg",
+            "topHeadLine": "فيراري | 488 جي تي بي | 2018",
+            "salary": "315000",
+            "yearOfManufacture": "2018",
+            "kilometer": "15000",
+            "guaranteedTo": "2022",
+            "type": "European",
+            "is_favorites": true,
+            "status": "فيراري 488 جي تي بي 2018 في حالة ممتازة",
+            "even_guaranteed": "100000",
+            "agent_name": "فيراري الشرق الأوسط",
+            "agent_img_url": "https://img.freepik.com/free-photo/sport-car-racing-on-asphalt-road-motion-blur_181624-1683.jpg?size=626&ext=jpg",
+            "cylinder": 8,
+            "more_cars": [],
+            "features": [
+                {
+                    "key": "اللون الخارجي",
+                    "value": "أحمر"
+                },
+                {
+                    "key": "اللون الداخلي",
+                    "value": "أسود"
+                },
+                {
+                    "key": "نوع المقعد",
+                    "value": "جلد"
+                },
+                {
+                    "key": "فتحة السقف",
+                    "value": "لا يوجد"
+                },
+                {
+                    "key": "كاميرا خلفية",
+                    "value": "لا يوجد"
+                },
+                {
+                    "key": "سينسر",
+                    "value": "لا يوجد"
+                },
+                {
+                    "key": "سيلندر",
+                    "value": "8"
+                },
+                {
+                    "key": "ناقل الحركة",
+                    "value": "أوتوماتيك"
+                }
+            ],
+            "description": "فيراري 488 GTB هي سيارة رياضية إيطالية تنتجها فيراري منذ عام 2015، تم الكشف عن السيارة في فبراير 2015، وتعد الجيل الثامن من الفيراري الرياضية من سلسلة الفيراري. تستخدم السيارة محرك V8 ثنائي التيربو سعة 3.9 لتر، يولد قوة 670 حصانًا وعزم دوران 760 نيوتن.متر. تعتبر هذه السيارة واحدة من أفضل سيارات فيراري التي تتمتع بأداء عالي وقدرات تحكم ممتازة."
+        },
+        {
+            "id": 2,
+            "image_path": "https://img.freepik.com/free-photo/silver-suv-car-parking-lot_53876-112105.jpg?size=626&ext=jpg",
+            "topHeadLine": "تويوتا | راف فور | الفئة الثالثة",
+            "salary": "21500",
+            "yearOfManufacture": "2020",
+            "kilometer": "10000",
+            "guaranteedTo": "2023",
+            "type": "European",
+            "is_favorites": false,
+            "status": "راف فور جديدة تمامًا",
+            "even_guaranteed": "100000",
+            "agent_name": "تويوتا للسيارات المعتمدة",
+            "agent_img_url": "https://img.freepik.com/free-photo/silver-suv-car-parking-lot_53876-112105.jpg?size=626&ext=jpg",
+            "cylinder": 4,
+            "features": [
+                {
+                    "key": "اللون الخارجي",
+                    "value": "فضي"
+                },
+                {
+                    "key": "اللون الداخلي",
+                    "value": "أسود"
+                },
+                {
+                    "key": "نوع المقعد",
+                    "value": "جلد"
+                },
+                {
+                    "key": "فتحة السقف",
+                    "value": "1"
+                },
+                {
+                    "key": "كاميرا خلفية",
+                    "value": "1"
+                },
+                {
+                    "key": "سينسر",
+                    "value": "أمامى وخلفي"
+                },
+                {
+                    "key": "سيلندر",
+                    "value": "4"
+                },
+                {
+                    "key": "ناقل الحركة",
+                    "value": "أوتوماتيك"
+                }
+            ],
+            "more_cars": [],
+            "description": "تمتلك تويوتا راف فور محركاً قوياً وأداءً مميزاً في الطرق الوعرة وتعتبر من السيارات العائلية الواسعة والمناسبة للرحلات الطويلة والمغامرات."
+        }
+              
+                ]
+            },
+            {
+                "id": 2,
+                "image_path": "https://img.freepik.com/free-photo/silver-suv-car-parking-lot_53876-112105.jpg?size=626&ext=jpg",
+                "topHeadLine": "تويوتا | راف فور | الفئة الثالثة",
+                "salary": "21500",
+                "yearOfManufacture": "2020",
+                "kilometer": "10000",
+                "guaranteedTo": "2023",
+                "type": "European",
+                "is_favorites": false,
+                "status": "راف فور جديدة تمامًا",
+                "even_guaranteed": "100000",
+                "agent_name": "تويوتا للسيارات المعتمدة",
+                "agent_img_url": "https://img.freepik.com/free-photo/silver-suv-car-parking-lot_53876-112105.jpg?size=626&ext=jpg",
+                "cylinder": 4,
+                "more_cars": [],
+                "features": [
+                    {
+                        "key": "اللون الخارجي",
+                        "value": "فضي"
+                    },
+                    {
+                        "key": "اللون الداخلي",
+                        "value": "أسود"
+                    },
+                    {
+                        "key": "نوع المقعد",
+                        "value": "جلد"
+                    },
+                    {
+                        "key": "فتحة السقف",
+                        "value": "1"
+                    },
+                    {
+                        "key": "كاميرا خلفية",
+                        "value": "1"
+                    },
+                    {
+                        "key": "سينسر",
+                        "value": "أمامى وخلفي"
+                    },
+                    {
+                        "key": "سيلندر",
+                        "value": "4"
+                    },
+                    {
+                        "key": "ناقل الحركة",
+                        "value": "أوتوماتيك"
+                    }
+                ],
+                "description": "تمتلك تويوتا راف فور محركاً قوياً وأداءً مميزاً في الطرق الوعرة وتعتبر من السيارات العائلية الواسعة والمناسبة للرحلات الطويلة والمغامرات."
+            },
+            {
+                "id": 3,
+                "image_path": "https://img.freepik.com/free-photo/sport-car-racing-on-asphalt-road-motion-blur_181624-1683.jpg?size=626&ext=jpg",
+                "topHeadLine": "فيراري | 488 جي تي بي | 2018",
+                "salary": "315000",
+                "yearOfManufacture": "2018",
+                "kilometer": "15000",
+                "guaranteedTo": "2022",
+                "type": "European",
+                "is_favorites": true,
+                "status": "فيراري 488 جي تي بي 2018 في حالة ممتازة",
+                "even_guaranteed": "100000",
+                "agent_name": "فيراري الشرق الأوسط",
+                "agent_img_url": "https://img.freepik.com/free-photo/sport-car-racing-on-asphalt-road-motion-blur_181624-1683.jpg?size=626&ext=jpg",
+                "cylinder": 8,
+                "more_cars": [],
+                "features": [
+                    {
+                        "key": "اللون الخارجي",
+                        "value": "أحمر"
+                    },
+                    {
+                        "key": "اللون الداخلي",
+                        "value": "أسود"
+                    },
+                    {
+                        "key": "نوع المقعد",
+                        "value": "جلد"
+                    },
+                    {
+                        "key": "فتحة السقف",
+                        "value": "لا يوجد"
+                    },
+                    {
+                        "key": "كاميرا خلفية",
+                        "value": "لا يوجد"
+                    },
+                    {
+                        "key": "سينسر",
+                        "value": "لا يوجد"
+                    },
+                    {
+                        "key": "سيلندر",
+                        "value": "8"
+                    },
+                    {
+                        "key": "ناقل الحركة",
+                        "value": "أوتوماتيك"
+                    }
+                ],
+                "description": "فيراري 488 GTB هي سيارة رياضية إيطالية تنتجها فيراري منذ عام 2015، تم الكشف عن السيارة في فبراير 2015، وتعد الجيل الثامن من الفيراري الرياضية من سلسلة الفيراري. تستخدم السيارة محرك V8 ثنائي التيربو سعة 3.9 لتر، يولد قوة 670 حصانًا وعزم دوران 760 نيوتن.متر. تعتبر هذه السيارة واحدة من أفضل سيارات فيراري التي تتمتع بأداء عالي وقدرات تحكم ممتازة."
+            }
+        ],
+        "footer": "https://images.pexels.com/photos/35967/mini-cooper-auto-model-vehicle.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+}
