@@ -1,68 +1,131 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 
-class Dimisions {
-  static final bottomViewMarginH = 120.h;
-  static final double bottomViewH = 84.h;
-  static final double marginH33 = 33.h;
-  static final double marginW33 = 33.w;
-  static final double marginH21 = 21.h;
-  static final double marginH16 = 16.h;
-  static final double marginW16 = 16.w;
-  static final double marginH12 = 12.h;
-  static final double marginH8 = 8.h;
-  static final double marginW8 = 8.w;
-  static final double marginH4 = 4.h;
-  static final double marginW4 = 4.w;
-  static final double marginH6 = 6.h;
-  static final double marginW6 = 6.w;
-  static final double marginW37 = 37.w;
-  static final double marginH37 = 37.h;
-  static final double marginH53 = 53.h;
-  static final double marginW53 = 53.w;
-  static final double marginH30 = 30.h;
-  static final double marginW30 = 30.w;
-  static final double marginH70 = 70.h;
-  static final double marginH80 = 80.h;
-  static final double marginW70 = 70.w;
-  static final double marginW75 = 75.w;
-  static final double marginH100 = 100.h;
-  static final double marginW100 = 100.w;
-  static final double marginH60 = 60.h;
-  static final double marginH58 = 58.h;
-  static final double marginH44 = 44.h;
-  static final double marginH45 = 45.h;
-  static final double marginW44 = 44.w;
-  static final double cardHeight = 60.h;
-  static final double imageHeight = 190.h;
-  static final fontSizeSmall = 15.sp;
-  static final fontSizeMedium = 17.sp;
-  static final fontSizeLarge = 21.sp;
-  static final fontSizexLarge = 24.sp;
-  static final fontSizexxLarge = 28.sp;
-  static final fontSizeHeadline60 = 60.sp;
-  static final mainButtonWidthSize = 167.5.w;
-  static final mainButtonHeightSize = 22.5.h;
-  static const buttonRadius = 8.0;
-  static const chipsRadius = 8.0;
+class AppSizes {
+  ///  Screen Size
+  /// Height
+  static double heightFullScreen = Get.height;
+  static double heightHalfScreen = Get.height / 2;
+  static double heightQuarterScreen = Get.height / 4;
+  static double heightThirdScreen = Get.height / 3;
 
-  static final radiusSmall = 4.0;
-  static final radiusMedium = 8.0;
-  static final radiusSemiLarge = 12.0;
-  static final radiusLarge = 16.0;
-  static final radiusRounded = 25.0;
+  /// Width
+  static double widthFullScreen = Get.width;
 
-  static final elevationHigh = 8.0;
-  static final elevationMedium = 4.0;
+  /// Font Size
+  static final double fs48 = 48.0.sp;
+  static final double fs32 = 32.0.sp;
+  static final double fs24 = 24.0.sp;
+  static final double fs20 = 20.0.sp;
+  static final double fs18 = 18.0.sp;
+  static final double fs15 = 15.0.sp;
+  static final double fs16 = 16.0.sp;
+  static final double fs14 = 14.0.sp;
+  static final double fs13 = 13.0.sp;
+  static final double fs11 = 11.0.sp;
+  static final double fs10 = 10.0.sp;
+  static final double fs8 = 8.0.sp;
 
-  static final sbhHigh10 = 10.h;
-  static final sbhHigh15 = 15.h;
-  static final sbhHigh20 = 20.h;
-  static final sbhHigh25 = 25.h;
-  static final sbhHigh30 = 30.h;
+  /// Padding Size Height
+  static final double pH6 = 6.0.h;
+  static final double pH7 = 7.0.h;
+  static final double pH8 = 8.0.h;
+  static final double pH10 = 10.0.h;
+  static final double pH12 = 12.0.h;
+  static final double pH14 = 14.0.h;
+  static final double pH15 = 15.0.h;
+  static final double pH16 = 16.0.h;
+  static final double pH18 = 18.0.h;
+  static final double pH22 = 22.0.h;
+  static final double pH32 = 32.0.h;
+  static final double pH40 = 40.0.h;
+  static final double pH75 = 75.0.h;
 
-  static final sbwWidth10 = 10.w;
-  static final sbwWidth15 = 15.w;
-  static final sbwWidth20 = 20.w;
-  static final sbwWidth25 = 25.w;
-  static final sbwWidth30 = 30.w;
+  /// Padding Size Width
+  static final double pW1 = 6.0.w;
+  static final double pW7 = 7.0.w;
+  static final double pW2 = 8.0.w;
+  static final double pW3 = 12.0.w;
+  static final double pW4 = 14.0.w;
+  static final double pW16 = 16.0.w;
+  static final double pW18 = 18.0.w;
+  static final double pW32 = 32.0.w;
+  static final double pW40 = 40.0.w;
+  static final double pW75 = 75.0.w;
+
+  /// Elevation Sizes
+  static const double e1 = 2;
+  static const double e2 = 4;
+  static const double e3 = 6;
+
+  /// Border Sizes
+  static final double bs1_5 = 1.5.w;
+  static final double bs0_5 = 0.5.w;
+
+  /// Border Radius
+  static final double br5 = 5.r;
+  static final double br6 = 6.r;
+  static final double br8 = 8.r;
+  static final double br10 = 10.r;
+  static final double br15 = 15.r;
+  static final double br20 = 20.r;
+  static final double br40 = 40.r;
+  static final double br30 = 30.r;
+  static final double br25 = 25.r;
+
+  /// Images Sizes Height
+  static final double imageHeightTiny = 40.h;
+  static final double imageHeightSmall = 50.h;
+  static final double imageHeightMedium = 100.h;
+  static final double imageHeightLarge = 200.h;
+
+  /// Images Sizes Width
+  static final double imageWidthTiny = 40.w;
+  static final double imageWidthSmall = 50.w;
+  static final double imageWidthMedium = 100.w;
+  static final double imageWidthLarge = 200.w;
+
+  /// Loading Indicator Size
+  static final double loadingIndicatorLargeWidth = 100.w;
+  static final double loadingIndicatorLargeHeight = 100.h;
+  static final double loadingIndicatorMediumHeight = 15.h;
+
+
+
+  /// icons Sizes
+  static final double iconSize = 18.w;
+
+  /// SizedBox Height
+  static final double sizedBoxHeightSimiTiny = 5.h;
+  static final double sizedBoxHeightTiny = 12.h;
+  static final double sizedBoxHeightSmall = 18.h;
+  static final double sizedBoxHeightMedium = 32.h;
+
+  /// SizedBox Width
+  static final double sizedBoxWidthSimiTiny = 5.w;
+  static final double sizedBoxWidthTiny = 12.w;
+  static final double sizedBoxWidthSmall = 18.w;
+  static final double sizedBoxWidthMedium = 32.w;
+
+  /// Button Sized
+  static final double buttonWidthSimiSmall = widthFullScreen / 2;
+  static final double buttonWidthSmall = widthFullScreen / 2;
+  static final double buttonWidthMedium = widthFullScreen / 1.5;
+  static final double buttonWidthLarge = widthFullScreen;
+
+  static final double simiSmallButtonHeight = 27.h;
+  static final double smallButtonHeight = 35.h;
+  static final double mediumButtonHeight = 45.h;
+  static final double largeButtonHeight = 60.h;
+
+  /// Divider Thickness
+  static final double dv01 = 0.1.h;
+  static final double dv1 = 1.h;
+  static final double dv2 = 2.h;
+  static final double dv3 = 3.h;
+
+  /// Icon Size
+  static final double smallIconSize = 24.r;
+  static final double mediumIconSize = 30.r;
+  static final double largeIconSize = 45.r;
 }

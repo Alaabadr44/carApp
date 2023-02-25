@@ -12,24 +12,23 @@ TextStyle defaultWhiteLightText({double? fontSize}) {
       color: Colors.white, fontWeight: FontWeight.w300, fontSize: fontSize);
 }
 
-var  bold20MainColor= 
-   TextStyle(
-    color: mainColor,
-    fontWeight: FontWeight.bold,
-    fontSize: 20.sp,
-  );
-
-
-var boldDefaultMainColor = const TextStyle(
+var bold20MainColor = TextStyle(
+  color: kMainColor,
   fontWeight: FontWeight.bold,
-  color: mainColor,
+  fontSize: 20.sp,
+);
+
+var boldDefaultMainColor = TextStyle(
+  fontWeight: FontWeight.bold,
+  color: kMainColor,
+  fontSize: 14.sp,
 );
 
 // 12 black 300
 
 var font12BlackW200 = TextStyle(
   color: Colors.black,
-  fontSize: 12.sp,
+  fontSize: 10.sp,
   fontWeight: FontWeight.w200,
 );
 
@@ -44,9 +43,9 @@ var fontBlack15Normal = const TextStyle(
   fontSize: 15,
   fontWeight: FontWeight.w400,
 );
-var fontBlack15SemiBold = const TextStyle(
+var fontBlack15SemiBold = TextStyle(
   color: Colors.black,
-  fontSize: 15,
+  fontSize: 14.sp,
   fontWeight: FontWeight.w600,
 );
 var fontBlack15Bold = const TextStyle(
@@ -56,12 +55,12 @@ var fontBlack15Bold = const TextStyle(
 );
 var fontWhite17Medium = TextStyle(
   color: Colors.white,
-  fontSize: 17.sp,
+  fontSize: 20.sp,
   fontWeight: FontWeight.w500,
 );
 var fontBlack20Normal = TextStyle(
   color: Colors.black,
-  fontSize: 20.sp,
+  fontSize: 17.sp,
   fontWeight: FontWeight.w400,
 );
 var fontBlack20Light = const TextStyle(

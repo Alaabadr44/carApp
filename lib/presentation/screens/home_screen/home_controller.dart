@@ -11,13 +11,8 @@ class HomeController extends MainController with UiStateControllerMixin {
   final HomeRepository homeRepository;
   HomeController(this.homeRepository);
   _loadHome() async {
-    homeState.value = UiState.loading();
     final res = await homeRepository.getHome();
-    final state = mapToUiState<HomeResModel>(res);
-    if (state.isSuccess) {
-      print(" res ${res.data!.data.banar.toString()} ");
-    }
-    homeState.value = state;
+    homeState.value = mapToUiState<HomeResModel>(res);
   }
 
   @override
@@ -32,5 +27,5 @@ class HomeController extends MainController with UiStateControllerMixin {
 
 
 
-
+  
 }

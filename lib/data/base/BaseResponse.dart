@@ -4,6 +4,7 @@ class BaseResponse<T> {
   T? result;
   bool? success;
   String? message;
+
   ResponseException? error;
   late Paging paging;
   late List<Links> links;
@@ -11,15 +12,11 @@ class BaseResponse<T> {
   BaseResponse();
 
   BaseResponse.fromJson(Map<String, dynamic> map) {
-    success = map['success'];
+   
 
-    message = map['message'];
-    if (map.containsKey('error')) {
-      error = ResponseException.fromJson(map['error']);
-    }
-
-    if (map['status']!=0) {
-         error = ResponseException(details: "خطا");
+    if (map['status'] != 1) {
+      success = false;
+      message = map['message'];
     }
   }
 

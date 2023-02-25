@@ -9,6 +9,8 @@ mixin UiStateControllerMixin on GetxController {
       case NoInternetStatus:
         return UiState.noInternet();
       case SuccessStatus:
+
+      
         return UiState.success(responseStatus.data);
       case ErrorStatus:
         return UiState.error(

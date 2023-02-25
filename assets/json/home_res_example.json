@@ -1,6 +1,6 @@
 {
-    "status": 0,
-    "msg": "مشكلة",
+    "status": 1,
+    "msg": " go to assets file / home_res_example and change value of key status to 1 ",
     "data": {
         "notification_count": 3,
         "stories": [

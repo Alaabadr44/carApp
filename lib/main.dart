@@ -1,7 +1,9 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:one_context/one_context.dart';
 
 import 'configuration/binding/app_binding.dart';
 import 'configuration/navigation/AppPages.dart';
@@ -13,7 +15,10 @@ import 'presentation/screens/home_screen/home_screen.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  runApp(const MyApp());
+  runApp(DevicePreview(
+    enabled: false,
+    builder: (context) => const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -39,9 +44,10 @@ class MyApp extends StatelessWidget {
   }
 
   Widget _changeTextScaleFactor(context, widget) {
-    return MediaQuery(
-      data: MediaQuery.of(context).copyWith(textScaleFactor: 1),
-      child: widget!,
-    );
+    
+ return   OneContext().builder(context, MediaQuery(
+          data: MediaQuery.of(context).copyWith(textScaleFactor: 1),
+          child: widget!,
+        ));
   }
 }

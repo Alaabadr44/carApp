@@ -2,18 +2,18 @@ import '../../base/BaseResponse.dart';
 
 class HomeResModel extends BaseResponse<HomeResModel> {
   HomeResModel({
-    required this.status,
-    required this.msg,
+    // required this.status,
+    // required this.msg,
     required this.data,
   });
 
-  int status;
-  String msg;
+  // int status;
+  // String msg;
   Data data;
 
   factory HomeResModel.fromJson(Map<String, dynamic> json) => HomeResModel(
-        status: json["status"],
-        msg: json["msg"],
+        // status: json["status"],
+        // msg: json["msg"],
         data: Data.fromJson(json["data"]),
       );
 }

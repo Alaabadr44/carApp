@@ -16,7 +16,14 @@ abstract class BaseRepository {
     switch (response.statusCode) {
       case HttpStatus.ok:
         {
-          return ApiStatus.success(creator());
+          if (response.data['status'] == 1) {
+            return ApiStatus.success(creator());
+          } else {
+            return ApiStatus.error(
+              message: response.data['msg'],
+              subStatusCode: HttpStatus.unprocessableEntity,
+            );
+          }
         }
 
       case HttpStatus.unprocessableEntity:
